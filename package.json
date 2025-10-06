@@ -1,0 +1,12 @@
+{
+  "name": "jobby-app-root",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "start": "cd backend && npm start"
+  },
+  "dependencies": {
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.4.1"
+  }
+}

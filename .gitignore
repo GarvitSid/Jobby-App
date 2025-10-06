@@ -1,0 +1,73 @@
+# GitHub
+.github
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnp
+.pnp.js
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment Variables & Secrets
+# =========================
+# NEVER commit your secrets!
+.env
+.env.*
+!.env.example
+
+# =========================
+# Build & Compiled Outputs
+# =========================
+# Ignores build/dist folders anywhere in the project (frontend & backend)
+dist/
+build/
+*.tsbuildinfo
+
+# =========================
+# Testing
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Repomix / AI Tools
+# =========================
+# Exclude the generated output to prevent infinite loops and massive commits
+repomix-output.xml
+repomix-output.md
+repopack-output.md
+.repomixignore
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# Editors & IDEs
+# =========================
+.vscode/
+.idea/
+.webstorm/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
