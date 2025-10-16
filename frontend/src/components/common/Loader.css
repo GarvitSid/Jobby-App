@@ -1,0 +1,13 @@
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 90px;
+  color: #e2e8f0;
+}
+
+.loader-text {
+  margin: 0;
+  font-size: 14px;
+}
