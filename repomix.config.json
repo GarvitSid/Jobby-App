@@ -1,0 +1,32 @@
+{
+  "output": {
+    "filePath": "repomix-output.xml",
+    "style": "xml",
+    "removeComments": false,
+    "removeEmptyLines": true,
+    "showLineNumbers": false,
+    "summaryStyle": "all"
+  },
+  "include": [
+    "backend/controllers/**/*",
+    "backend/middleware/**/*",
+    "backend/models/**/*",
+    "backend/routes/**/*",
+    "backend/utils/**/*",
+    "backend/*.*",
+    "frontend/src/**/*",
+    "frontend/public/index.html",
+    "frontend/*.*",
+    "package.json",
+    "README.md"
+  ],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [
+      "backend/logs/**",
+      "**/*.min.js",
+      "**/*.map"
+    ]
+  }
+}

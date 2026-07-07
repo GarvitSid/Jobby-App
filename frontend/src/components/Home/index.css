@@ -1,0 +1,20 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
+  background-image: url('/assets/home-lg-bg.png');
+  background-size: cover;
+  padding: 0 5%;
+}
+.home-content { max-width: 500px; }
+.home-heading { font-size: 46px; margin-bottom: 20px; }
+.home-description { font-size: 18px; line-height: 1.5; margin-bottom: 30px; }
+.shop-now-button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}

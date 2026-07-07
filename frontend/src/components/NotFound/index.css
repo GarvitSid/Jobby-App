@@ -1,0 +1,71 @@
+/* Container that fills the space below the Header */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh; /* Takes up most of the viewport height */
+  background:
+		radial-gradient(circle at top, rgba(66, 153, 225, 0.18), transparent 35%),
+		linear-gradient(180deg, #0b1220 0%, #111827 100%);
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling the 404 Image */
+.not-found-img {
+  width: 300px;
+  max-width: 80%; /* Makes it responsive on mobile */
+  margin-bottom: 30px;
+}
+
+/* Main Heading */
+.not-found-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+/* Description text */
+.not-found-description {
+  color: #64748b; /* Muted slate color for secondary text */
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-bottom: 24px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+
+/* Button to navigate back to Home */
+.home-button {
+  background-color: #4f46e5; /* Indigo theme color */
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #3f36c5; /* Darker shade on hover */
+}
+
+/* Responsive adjustment for small screens */
+@media screen and (max-width: 767px) {
+  .not-found-heading {
+    font-size: 24px;
+  }
+  .not-found-description {
+    font-size: 14px;
+  }
+  .not-found-img {
+    width: 200px;
+  }
+}

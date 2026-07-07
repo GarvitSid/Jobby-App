@@ -1,0 +1,9 @@
+/* Add styles for your SimilarJobItem card here */
+.similar-job-item {
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  width: 300px; /* Example width */
+}
