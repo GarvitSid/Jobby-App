@@ -38,8 +38,9 @@ app.use(jobRoutes);
 // Serve static files from the React frontend app
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
-// ANYTHING that doesn't match an API route goes to index.html
-app.get('*', (req, res) => {
+// 2. SPA Fallback: ANYTHING that doesn't match an API route goes to index.html
+// Notice we are using /.*/ instead of '*' for Express 5 compatibility
+app.get(/.*/, (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dist/index.html'));
 });
 
