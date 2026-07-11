@@ -2,7 +2,7 @@
 
 Jobby App is a modern, secure, and performant full-stack job board built with the **MERN stack** (MongoDB, Express, React, Node.js) and containerized with **Docker**. This project demonstrates a deep understanding of enterprise-level web development patterns, from secure authentication to advanced state management and optimistic UI updates.
 
-[Live Demo (Frontend)](#) • [Live API Documentation](#) • [GitHub Repository](#)
+<a href='https://jobby-app-jir5.onrender.com/'>[Live Demo](#)</a> • <a href='#api'>[Live API Documentation](#)</a> • <a href='https://github.com/GarvitSid/Jobby-App.git'>[GitHub Repository](#)</a>
 
 
 ---
@@ -95,7 +95,7 @@ npm test -- --coverage
 ---
 
 ## 📄 API Endpoints
-
+<a id = 'api'></a>
 ### Authentication
 - **POST** `/register` - Create a new user account
 - **POST** `/login` - Authenticate a user and receive an HttpOnly JWT cookie
