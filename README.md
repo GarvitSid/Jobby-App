@@ -270,7 +270,7 @@ cd ../frontend && npm test
 
 **Garvit Singh**
 - GitHub: [@GarvitSid](https://github.com/GarvitSid)
-- LinkedIn: [Garvit Singh](www.linkedin.com/in/garvit-singh-22605a246)
+- LinkedIn: [Garvit Singh](https://linkedin.com/in/garvit-singh-22605a246)
 
  - Portfolio: [Portfolio](https://portfolio-garvitsingh.vercel.app/)
 
