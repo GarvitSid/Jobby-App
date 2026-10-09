@@ -4,9 +4,5 @@
   "scripts": {
     "build": "cd frontend && npm install --include=dev && npm run build && cd ../backend && npm install",
     "start": "cd backend && npm start"
-  },
-  "dependencies": {
-    "mongodb": "^7.1.1",
-    "mongoose": "^9.4.1"
   }
 }
