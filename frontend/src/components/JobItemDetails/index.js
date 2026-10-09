@@ -60,7 +60,7 @@ const performAction = async ({jobId, action, isRemoval = false}) => {
   return data
 }
 
-const updateCollectionCache = (existingData, jobId, jobData, shouldAdd, collectionType) => {
+const updateCollectionCache = (existingData, jobId, jobData, shouldAdd, _collectionType) => {
   if (!existingData) {
     return existingData
   }

@@ -14,7 +14,8 @@ const app = express();
 app.use(helmet());
 // Allow credentials so browser can send HttpOnly cookies to API
 const allowedOrigins = [
-  'http://localhost:5173', // Vite local dev
+  'http://localhost:3000', // Docker / default frontend port
+  'http://localhost:5173', // Vite local dev fallback
   'http://localhost:5000', // Local fullstack test
   'http://127.0.0.1:5000', // Local fullstack test (IP)
   process.env.FRONTEND_URL // E.g., 'https://your-jobby-app.vercel.app'

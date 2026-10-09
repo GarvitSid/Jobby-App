@@ -18,6 +18,10 @@ const jsxInJsFiles = () => ({
 
 export default defineConfig({
   plugins: [jsxInJsFiles(), react()],
+  server: {
+    host: true,
+    port: 3000,
+  },
   build: {
     outDir: 'dist'
   },
